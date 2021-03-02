@@ -9,8 +9,10 @@ var secondaParola = prompt("Inserisci la seconda parola");
 // 3. stampo le due parole
 if (primaParola.length < secondaParola.length){
   console.log(primaParola);
+  console.log(secondaParola);
 } else if (primaParola.length > secondaParola.length) {
   console.log(secondaParola);
+  console.log(primaParola);  
 } else {
   console.log("le parole hanno la stessa lunghezza")
 }
