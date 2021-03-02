@@ -5,7 +5,8 @@ var numero;
 var listaNumeri = [];
 for ( var i = 0; i < 6; i++){
   numero = parseInt(prompt("Inserisci un numero"));
-  if (numero % 2 != 0) {
+  // controllo se il numero è dispari
+  if ( !isNaN(numero) && numero % 2 != 0) {
     listaNumeri.push(numero);
   }
 }
