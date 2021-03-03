@@ -10,4 +10,5 @@ var potenza;
 for (var i = 1; i < numeroUtente; i++){
   potenza = Math.pow(i, 3);
   console.log(potenza);
+  document.getElementById('lista-cubi').innerHTML += "<li>" + potenza + "</li>";
 }
