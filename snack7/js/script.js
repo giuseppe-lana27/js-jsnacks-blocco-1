@@ -2,8 +2,11 @@
 // dichiaro le variabili
 var i = 0;
 var risultatoPotenza;
+// calcolo le potenze
 do {
   risultatoPotenza = Math.pow(2, i);
   i++;
-  console.log(risultatoPotenza);
-} while (i < 10 && risultatoPotenza < 1000);
+  if (risultatoPotenza < 1000) {
+    console.log(risultatoPotenza);
+  }
+} while (risultatoPotenza <= 1000);
