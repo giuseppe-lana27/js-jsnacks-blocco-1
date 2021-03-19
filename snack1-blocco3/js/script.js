@@ -16,7 +16,7 @@ var bici = [
   {
     'marca': 'Pinarello',
     'peso': 7000
-  }
+  },
   {
     'marca': 'LRHD',
     'peso': 8000
@@ -28,12 +28,12 @@ var bici = [
 ];
 
 // cerco la bici col peso minore e la stampo in console
-
 var biciLight = bici[0];
 
 for (var i = 0; i < bici.length; i++){
+
   if(bici[i].peso < biciLight.peso){
     biciLight = bici[i];
-    console.log(bici[i]);
   }
 }
+console.log(biciLight);
