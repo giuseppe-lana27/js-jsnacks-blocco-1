@@ -11,12 +11,20 @@ var bici = [
   },
   {
     'marca': 'Sava',
-    'peso': 6000
+    'peso': 3500
   },
   {
     'marca': 'Pinarello',
-    'peso': 6000
+    'peso': 7000
   }
+  {
+    'marca': 'LRHD',
+    'peso': 8000
+  },
+  {
+    'marca': 'Atala',
+    'peso': 120000
+  },
 ];
 
 // cerco la bici col peso minore e la stampo in console
