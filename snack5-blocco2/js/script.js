@@ -11,3 +11,5 @@ for (i = 3; i < primoArray.length; i++ ){
 }
 console.log(primoArray);
 console.log(secondoArray);
+document.getElementById('primo-array').innerHTML = primoArray;
+document.getElementById('secondo-array').innerHTML = secondoArray;
