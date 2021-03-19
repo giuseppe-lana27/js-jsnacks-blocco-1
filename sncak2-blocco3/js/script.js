@@ -40,3 +40,14 @@ for (var i = 0; i < squadre.length; i++){
 }
 // stampo i valori aggiornati
 console.log(squadre);
+
+var squadreAggiornate = [];
+
+for (var i = 0; i < squadre.length; i++){  
+  var oggetto = {
+    'nome': squadre[i].nome,
+    'falliSubiti': squadre[i].falliSubiti
+  }
+  squadreAggiornate.push(oggetto);
+}
+console.log(squadreAggiornate);
